@@ -1,0 +1,7 @@
+package lec13_exception01;
+
+public class ThrowExceptionMain03 {
+	public static void main(String[] args) {
+		
+	}
+}

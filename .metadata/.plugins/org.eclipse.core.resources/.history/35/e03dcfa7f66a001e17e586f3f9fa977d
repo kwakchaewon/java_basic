@@ -1,0 +1,19 @@
+package lec07.jth.world.vo.chemicals;
+/**
+ * 한화솔루션/케미칼
+ * @author gram17
+ *
+ */
+public class Hcc {
+	
+	private static Hcc hcc = new Hcc();
+	
+	private Hcc() {
+				
+	}
+	
+	public static Hcc getInstance() {
+		return Hcc;
+	}
+
+}

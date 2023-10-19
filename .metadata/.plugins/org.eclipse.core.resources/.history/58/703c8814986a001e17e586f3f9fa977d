@@ -1,0 +1,15 @@
+package lec04;
+
+/**
+ * 구매 품목 순서
+ * @author gram17
+ *
+ */
+
+public class ProcureItemDocument {
+	public int id;
+	public String procureItemName
+	public String procureItemUnitCd;
+	public String procureItemUnitName;
+	public 
+}

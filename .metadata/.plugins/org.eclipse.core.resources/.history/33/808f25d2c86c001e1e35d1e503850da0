@@ -1,0 +1,8 @@
+package lec14.collectionframework.samplecode08.main;
+
+public class MainMethod {
+	
+	public static void main(String[] args) {
+		
+	}
+}

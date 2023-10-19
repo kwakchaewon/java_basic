@@ -1,0 +1,14 @@
+package lec12;
+
+
+// 익명클래스: 객체 생성 후 바로 사용
+public class UnanyClassMainMethod {
+	public static void main(String[] args) {
+		
+		
+		public void new Runnable() {
+			public void run() {
+				System.out.println("Runnable이 구동중입니다");
+			}
+		}
+}

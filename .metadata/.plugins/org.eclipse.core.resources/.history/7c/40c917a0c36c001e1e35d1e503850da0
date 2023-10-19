@@ -1,0 +1,5 @@
+package lec14.collectionframework.samplecode08.repository.impl;
+
+public class CallDataRepositoryImpl {
+
+}

@@ -1,0 +1,21 @@
+package lec09;
+
+
+// 부모 클래스 상속
+// 1) extends 로 부모 클래스를 상속 받는다
+// 2) 우클릭 > Source >
+public class CocaCola extends Cola{
+
+	@Override
+	public void showColaProperty() {
+		// TODO Auto-generated method stub
+		super.showColaProperty();
+	}
+
+	@Override
+	public void showColaName(String getColaName) {
+		// TODO Auto-generated method stub
+		super.showColaName(getColaName);
+	}
+	
+}

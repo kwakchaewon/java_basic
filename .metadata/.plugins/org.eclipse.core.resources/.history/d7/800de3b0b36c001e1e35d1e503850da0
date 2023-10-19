@@ -1,0 +1,22 @@
+package lec14.collectionframework;
+
+import java.util.LinkedList;
+
+//Linked List
+public class LinkedList04 {
+	public static void main(String[] args) {
+		
+		LinkedList lkList = new LinkedList();
+		
+		lkList.add("a");
+		lkList.add("b");
+		lkList.add("c");
+		lkList.add("d");
+		lkList.add("e");
+		
+		System.out.println(lkList.toString());
+		lkList.add(1, "good")
+		
+		
+	}
+}

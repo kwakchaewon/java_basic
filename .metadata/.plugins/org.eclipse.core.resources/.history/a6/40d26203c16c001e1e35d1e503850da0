@@ -1,0 +1,29 @@
+package lec14.collectionframework.samplecode08.repository.impl;
+
+import java.util.LinkedHashMap;
+
+// 가상의 데이터베이스 역할을 하는 클래스
+public class DataRepository {
+	
+	private static DataRepository instance = new DataRepository();
+	
+	
+	// 싱글톤 패턴:객체를 한개만 생성해 계속 사용할 수 있음
+	// 하나의 객체의 값을 여러 곳에서 공통으로 사용
+	// 메모리 사용을 줄이거나 동일한 객체의 데이터를 사용할 때
+	// 일종의 데이터 베이스역할도 수행
+	public static DataRepository getInstance() {
+		return instance;
+	}
+	
+	private DataRepository(){
+		
+		System.out.println("DataRepository 생성자");
+		
+		savedDataLkMap = new LinkedHashMap<String, Object>();
+		sav
+		
+	}
+	
+	
+}

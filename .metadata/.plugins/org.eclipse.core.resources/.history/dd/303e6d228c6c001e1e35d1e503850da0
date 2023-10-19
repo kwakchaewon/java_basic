@@ -1,0 +1,7 @@
+package lec12;
+
+public class UnanyClassMainMethod {
+	public static void main(String[] args) {
+		
+	}
+}

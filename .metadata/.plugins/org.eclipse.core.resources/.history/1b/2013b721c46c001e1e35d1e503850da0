@@ -1,0 +1,24 @@
+package lec14.collectionframework.samplecode08.repository.impl;
+
+import lec14.collectionframework.samplecode08.repository.CallDataRepository;
+
+// 인터페이스 상속 받는 법
+// implement 후 add unimplement method
+public class CallDataRepositoryImpl implements CallDataRepository{
+
+	// 싱글톤 패턴 선언
+	DataRepository dataRepository = DataRepository.getInstance()
+	
+	@Override
+	public Object getNationData(String nationName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getIndustryData(int paramIndex) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

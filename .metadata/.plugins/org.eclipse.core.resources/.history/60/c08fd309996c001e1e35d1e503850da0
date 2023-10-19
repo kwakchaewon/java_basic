@@ -1,0 +1,11 @@
+package lec13_generics02;
+
+public class ExeB {
+	public <T> T method1(T t) {
+		return t;
+	}
+	
+	public static <T> t method2(T t) {
+		return t;
+	}
+}

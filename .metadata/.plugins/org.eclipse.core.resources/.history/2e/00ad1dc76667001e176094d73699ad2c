@@ -1,0 +1,11 @@
+package lec01;
+
+public class Variable02 {
+	public static void main(String[] args) {
+		
+		int intAmount = 10;
+		String strCompanyName = "삼성전자" ;
+		
+		
+}
+}

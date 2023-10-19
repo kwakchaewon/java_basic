@@ -1,0 +1,27 @@
+package lec14.collectionframework.samplecode08.service.impl;
+
+import lec14.collectionframework.samplecode08.repository.impl.CallDataRepositoryImpl;
+import lec14.collectionframework.samplecode08.service.CallDataService;
+
+public class CallDataServiceImpl implements CallDataService {
+
+	CallDataRepositoryImpl callDataRepositoryImpl = null;
+	
+	public public CallDataServiceImpl() {
+		System.out.println("CallDataServiceImpl 기본 생성자");
+		
+	}
+		
+	@Override
+	public Object getNationData(String nationName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getIndustryData(int paramIndex) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

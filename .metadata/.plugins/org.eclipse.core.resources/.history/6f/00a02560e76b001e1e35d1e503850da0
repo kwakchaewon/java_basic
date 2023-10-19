@@ -1,0 +1,7 @@
+package lec09;
+
+
+//
+public class CocaCola extends Cola{
+	
+}

@@ -1,0 +1,7 @@
+package lec04;
+
+public class ObjClass03 {
+	public static void main(String[] args) {
+		
+	}
+}

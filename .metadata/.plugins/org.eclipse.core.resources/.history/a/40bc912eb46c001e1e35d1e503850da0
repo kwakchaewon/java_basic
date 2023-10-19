@@ -1,0 +1,9 @@
+package lec14.collectionframework;
+
+// 
+public class ListSpeedTest {
+	public static void main(String[] args) {
+		long startMills = System.currentTimeMillis()
+		
+	}
+}

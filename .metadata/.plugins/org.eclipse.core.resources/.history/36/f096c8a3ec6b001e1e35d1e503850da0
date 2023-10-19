@@ -1,0 +1,7 @@
+package lec10;
+
+// 인터페이스는 기능목록이 정의되고
+// 클래스에서는 그 기능 목록을 반드시 정의한다
+public class ProgramInterfaceImpl implements ProgramInterface{
+	
+}

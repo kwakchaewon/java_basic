@@ -1,0 +1,25 @@
+package lec14.collectionframework;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+public class Map07 {
+	public static void main(String[] args) {
+		
+		// HashMap: 순서에 상관없이 삽입
+		HashMap hashmap = new HashMap();
+		hashmap.put("국가1", "한국");
+		hashmap.put("국가2", "미국");
+		hashmap.put("국가3", "중국");
+		hashmap.put("국가4", "러시아");
+		hashmap.put("국가5", "일본");
+		
+		System.out.println(hashmap.toString());
+		
+		
+		// LinkedHashMap
+		LinkedHashMap lkHashMap = new LinkedHashMap();
+		
+		
+	}
+}

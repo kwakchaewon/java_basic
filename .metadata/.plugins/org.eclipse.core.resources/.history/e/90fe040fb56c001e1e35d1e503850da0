@@ -1,0 +1,12 @@
+package lec14.collectionframework;
+
+// ArrayList - LinkedList 속도 비교
+public class ListSpeedTest {
+	public static void main(String[] args) {
+		
+		long startMills = System.currentTimeMillis();
+		
+		
+		
+	}
+}

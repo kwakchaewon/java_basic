@@ -1,0 +1,101 @@
+package lec07.jth.world.main;
+
+import lec07.jth.world.vo.chemicals.Hcc;
+import lec07.jth.world.vo.chemicals.LGChem;
+import lec07.jth.world.vo.chemicals.LotteChemical;
+import lec07.jth.world.vo.electronics.LGElectronics;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		
+		// 기업정보 세팅
+		// 한화 솔루션 케미칼
+		Hcc hcc = Hcc.getInstance();
+		
+		// String hccName = "한화솔루션케미칼";
+		String hccName			 				= String.valueOf("한화솔루션케미칼"); 
+		String hccCompanyProperty				= String.valueOf("화학");
+		String hccHeadOfficeAddress 			= String.valueOf("서울특별시 중구 청계천로 86");
+		int hccTotalEmployee 					= 5730;
+		int hccSalesAmt 						= 34493;
+		int hccPropertyAmt						= 82246;
+		int hccDebtAmt							= 32289;
+		
+		hcc.setCompanyName(hccName);
+		hcc.setCompanyProperty(hccCompanyProperty);
+		hcc.setHeadOfficeAddress(hccHeadOfficeAddress);
+		hcc.setTotalEmployee(hccTotalEmployee);
+		hcc.setSalesAmt(hccSalesAmt);
+		hcc.setPropertyAmt(hccPropertyAmt);
+		hcc.setDebtAmt(hccDebtAmt);
+		hcc.setCapitalAmt(hccPropertyAmt, hccDebtAmt);
+		
+		
+		
+		// shift + tab: 코드 왼쪽으로 이동
+		// LG 화학
+		LGChem lgChem = LGChem.getInstance();
+		
+		String lgChemName			 			= String.valueOf("LG화학"); 
+		String lgChemCompanyProperty			= String.valueOf("화학");
+		String lgChemHeadOfficeAddress 			= String.valueOf("서울특별시 영등포구 128");
+		int lgChemTotalEmployee 				= 20073;
+		int lgChemSalesAmt 						= 286250;
+		int lgChemPropertyAmt					= 340244;
+		int lgChemDebtAmt						= 166406;
+		
+		lgChem.setCompanyName(lgChemName);
+		lgChem.setCompanyProperty(lgChemCompanyProperty);
+		lgChem.setHeadOfficeAddress(lgChemHeadOfficeAddress);
+		lgChem.setTotalEmployee(lgChemTotalEmployee);
+		lgChem.setSalesAmt(lgChemSalesAmt);
+		lgChem.setPropertyAmt(lgChemPropertyAmt);
+		lgChem.setDebtAmt(lgChemDebtAmt);
+		lgChem.setCapitalAmt(lgChemPropertyAmt, lgChemDebtAmt);
+		
+		
+		
+		// 롯데 케미칼
+		LotteChemical lotteChemical = LotteChemical.getInstance();
+		
+		String lotteChemicalName			 	= String.valueOf("롯데케미칼"); 
+		String lotteChemicalCompanyProperty		= String.valueOf("화학");
+		String lotteChemicalHeadOfficeAddress 	= String.valueOf("서울특별시 송파구 올림픽로 300");
+		int lotteChemicalmTotalEmployee 		= 4540;
+		int lotteChemicalSalesAmt 				= 151234;
+		int lotteChemicalPropertyAmt			= 200431;
+		int lotteChemicalDebtAmt				= 59899;
+		
+		lotteChemical.setCompanyName(lotteChemicalName);
+		lotteChemical.setCompanyProperty(lotteChemicalCompanyProperty);
+		lotteChemical.setHeadOfficeAddress(lotteChemicalHeadOfficeAddress);
+		lotteChemical.setTotalEmployee(lotteChemicalmTotalEmployee);
+		lotteChemical.setSalesAmt(lotteChemicalSalesAmt);
+		lotteChemical.setPropertyAmt(lotteChemicalPropertyAmt);
+		lotteChemical.setDebtAmt(lotteChemicalDebtAmt);
+		lotteChemical.setCapitalAmt(lotteChemicalPropertyAmt, lotteChemicalDebtAmt);
+				
+		
+		
+		// LG전자
+		LGElectronics lgElectronics = LGElectronics.getInstance();
+		
+		String lgElectronicsName			 	= String.valueOf("LG전자"); 
+		String lgElectronicsCompanyProperty		= String.valueOf("전자");
+		String lgElectronicsHeadOfficeAddress 	= String.valueOf("서울특별시 영등포구 여의대로 128");
+		int lgElectronicsmTotalEmployee 		= 39765;
+		int lgElectronicsSalesAmt 				= 2886544;
+		int lgElectronicsPropertyAmt			= 448598;
+		int lgElectronicsDebtAmt				= 284347;
+		
+		lgElectronics.setCompanyName(lgElectronicsName);
+		lgElectronics.setCompanyProperty(lgElectronicsCompanyProperty);
+		lgElectronics.setHeadOfficeAddress(lgElectronicsHeadOfficeAddress);
+		lgElectronics.setTotalEmployee(lgElectronicsmTotalEmployee);
+		lgElectronics.setSalesAmt(lgElectronicsSalesAmt);
+		lgElectronics.setPropertyAmt(lgElectronicsPropertyAmt);
+		lgElectronics.setDebtAmt(lgElectronicsDebtAmt);
+		lgElectronics.setCapitalAmt(lgElectronicsPropertyAmt, lgElectronicsDebtAmt);
+		
+	}
+}

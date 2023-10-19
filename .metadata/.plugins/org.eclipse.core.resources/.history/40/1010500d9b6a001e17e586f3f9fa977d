@@ -1,0 +1,11 @@
+package lec04;
+
+
+
+public class ProcurementDocument {
+	public int procureRequestDocumentQty;
+	public int orderRequestDocumentQty;
+	public int orderDocumentQty;
+	
+
+}

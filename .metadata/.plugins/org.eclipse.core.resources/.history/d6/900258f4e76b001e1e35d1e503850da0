@@ -1,0 +1,16 @@
+package lec09;
+
+public class PepsiCola extends Cola{
+
+	@Override
+	public void showColaProperty() {
+		super.showColaProperty();
+	}
+
+	@Override
+	public void showColaName(String getColaName) {
+		super.showColaName(getColaName);
+	}
+	
+	
+}

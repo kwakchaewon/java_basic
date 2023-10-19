@@ -1,0 +1,24 @@
+package lec04;
+
+
+/**
+ * 구매품목
+ * @author gram17
+ *
+ */
+
+// /** + enter: 클래스 주석
+// VO(DTO): 특정 업무에 대한 데이터값을 변수로 지정하는 클래스 (id, name, quantity, price)
+
+public class ProcureitemVO {
+	
+	// private: 외부에서 접근이 불가하게 만드는 접근 제한자
+	// public: 외부에서도 접근이 가능한 접근 제한자
+	
+	private int id;
+	private String name;
+	private int quantity;
+	private int price;
+	
+	
+}

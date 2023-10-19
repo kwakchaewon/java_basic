@@ -1,0 +1,8 @@
+package lec13_exception01;
+
+public class ThrowExceptionMain03 {
+	// main 메소드에 TimeoutException04를 던짐
+	public static void main(String[] args) throws TimeoutException04{
+		
+	}
+}

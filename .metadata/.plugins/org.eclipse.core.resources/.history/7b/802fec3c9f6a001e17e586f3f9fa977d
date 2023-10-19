@@ -1,0 +1,11 @@
+package lec04;
+
+public class ObjClass02 {
+	
+	public static void main(String[] args) {
+		ProcureItemDocument procureItemDocument = new ProcureItemDocument();
+		
+	}
+	
+	// 변수에 static 이 붙은 경우 할당되는 메모리가 다르기 때문에 정말 필요할 떄만 써라
+}

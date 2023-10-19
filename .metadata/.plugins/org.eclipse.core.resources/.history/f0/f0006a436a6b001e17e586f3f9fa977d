@@ -1,0 +1,29 @@
+package lec07.jth.world.vo.electronics;
+
+import lec07.jth.world.vo.chemicals.LotteChemical;
+
+/**
+ * 삼성전자
+ * @author gram17
+ *
+ */
+public class SamsungElectronics {
+private static SamsungElectronics samsungElectronics = new SamsungElectronics();
+	
+	private SamsungElectronics() {
+		
+	}
+	
+	public static SamsungElectronics getInstance() {
+		return lotteChemical;
+	}
+	
+	private int salesAmt;		// 매출액
+	private int propertyAmt;	// 자산액
+	private int debtAmt;		// 부채액
+	private int capitalAmt;		// 자산액
+	private int totalEmployee;	// 총 종업원
+	private String headOfficeAddress;		// 본점 주소
+	private String companyProperty;			// 회사 속성 (조선, it, 화학, 전자)
+	private String CompanyName;				// 회사명
+}
