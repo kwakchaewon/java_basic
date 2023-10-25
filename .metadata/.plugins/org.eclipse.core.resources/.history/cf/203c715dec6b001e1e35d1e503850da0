@@ -1,5 +1,0 @@
-package lec10;
-
-public class ProgramInterfaceImpl implements ProgramInterface{
-
-}

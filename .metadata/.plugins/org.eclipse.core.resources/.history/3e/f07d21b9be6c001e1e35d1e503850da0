@@ -1,8 +1,0 @@
-package lec14.collectionframework.samplecode08.repository;
-
-
-// implement 에서 사용할 기본적인 메서드 정의
-public interface CallDataRepository {
-	
-	
-}

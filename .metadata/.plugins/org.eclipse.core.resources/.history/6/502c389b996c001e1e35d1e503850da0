@@ -1,8 +1,0 @@
-package lec13_generics02;
-
-public class ExeMain {
-	public static void main(String[] args) {
-		ExeB b = new ExeB();
-		String method1 = b.method1("테스트")
-	}
-}

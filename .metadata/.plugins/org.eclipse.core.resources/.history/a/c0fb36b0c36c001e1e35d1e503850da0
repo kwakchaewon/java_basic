@@ -1,7 +1,0 @@
-package lec14.collectionframework.samplecode08.repository.impl;
-
-import lec14.collectionframework.samplecode08.repository.CallDataRepository;
-
-public class CallDataRepositoryImpl implements CallDataRepositorya{
-	
-}

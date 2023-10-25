@@ -1,8 +1,0 @@
-package lec10;
-
-public interface ProgramInterface {
-	public void start();
-	public void start();
-	public void start();
-	public void start();
-}

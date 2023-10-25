@@ -31,3 +31,6 @@ replay_pid*
 
 # 파일입출력 실습 파일
 JavaBasicLecture/FileIO/
+
+# metadata
+.metadata/

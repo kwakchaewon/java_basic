@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="lec01.MainMethod01"/>
-    <fullyQualifiedTypeName name="lec01.DataType03"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="lec04.ProcureitemVO"/>
     <fullyQualifiedTypeName name="lec04.ProcurementDocument"/>
@@ -26,13 +22,11 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="lec12.InnerClassMake"/>
     <fullyQualifiedTypeName name="lec12.InnerClassMake.SampleInnerClass"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="lec13_exception01.TimeoutException04"/>
     <fullyQualifiedTypeName name="lec13_exception01.GetArithmeticException05"/>
     <fullyQualifiedTypeName name="lec13_generics02.ExeA"/>
     <fullyQualifiedTypeName name="lec13_generics02.ExeB"/>
     <fullyQualifiedTypeName name="java.sql.Array"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -40,10 +34,30 @@
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="lec14.collectionframework.samplecode08.repository.impl.DataRepository"/>
-    <fullyQualifiedTypeName name="lec14.collectionframework.samplecode08.repository.CallDataRepository"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="lec14.collectionframework.samplecode08.service.CallDataService"/>
     <fullyQualifiedTypeName name="lec14.collectionframework.samplecode08.repository.impl.CallDataRepositoryImpl"/>
     <fullyQualifiedTypeName name="lec14.collectionframework.samplecode08.service.impl.CallDataServiceImpl"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="lec13_exception01.TryCatchFinally02"/>
+    <fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
+    <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+    <fullyQualifiedTypeName name="java.awt.Desktop"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.PipedInputStream"/>
+    <fullyQualifiedTypeName name="java.io.PipedOutputStream"/>
+    <fullyQualifiedTypeName name="lec14.collectionframework.samplecode08.repository.CallDataRepository"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

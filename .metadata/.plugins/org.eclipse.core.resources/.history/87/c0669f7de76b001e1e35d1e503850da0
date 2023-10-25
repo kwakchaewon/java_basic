@@ -1,9 +1,0 @@
-package lec09;
-
-
-// 부모 클래스 상속
-// 1) 
-// 2)
-public class CocaCola extends Cola{
-	
-}

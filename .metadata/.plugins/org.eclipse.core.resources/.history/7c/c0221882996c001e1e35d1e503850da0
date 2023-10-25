@@ -1,7 +1,0 @@
-package lec13_generics02;
-
-public class ExeMain {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,9 +1,0 @@
-package lec13_exception01;
-
-// exception 상속
-public class TimeoutException04 extends Exception{
-	
-	public TimeException04(String message) {
-		
-	}
-}
